@@ -1,0 +1,112 @@
+/* style.css */
+body {
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.app {
+  font-family: 'Arial', sans-serif;
+  background-color: #c5e4e7;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+  color: #5e7a7d;
+  letter-spacing: 8px;
+  font-size: 24px;
+}
+
+.calculator {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.inputdata, .calculator-output {
+  width: 100%;
+  max-width: 400px;
+  margin: 20px;
+}
+
+.bill, .selectTip, .nopeople {
+  margin-bottom: 20px;
+}
+
+.tipoptions {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.tip {
+  background-color: #00474b;
+  border: none;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+  flex: 1;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.tip.active, .tip:hover {
+  background-color: #26c0ab;
+}
+
+
+#owntip {
+  width: 48%;
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #00474b;
+  border-radius: 5px;
+}
+
+.inputdata input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #00474b;
+  border-radius: 5px;
+}
+
+.calculator-output {
+  background-color: #00474b;
+  border-radius: 10px;
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.output {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.results, .total {
+  width: 48%;
+}
+
+.results p, .total p {
+  margin: 5px 0;
+}
+
+#resets, resets:hover {
+  background-color: #26c0ab;
+  border: none;
+  padding: 10px;
+  color: #00474b;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+}
