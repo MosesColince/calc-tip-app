@@ -25,8 +25,8 @@ const App = () => {
   //handle reset button, reset each values to default
   const handleReset = () => {
     setBill(0.0);
-    setTip(0.15);
-    setnoofPeople(1);
+    setTip(0.0);
+    setnoofPeople(0);
     setCustomTip("");
   };
 
