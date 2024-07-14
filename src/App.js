@@ -78,7 +78,7 @@ const App = () => {
               id="people"
               placeholder="1"
               value={noofpeople}
-              onChange={(e) => setnoofPeople(parseFloat(e.target.value))}
+              onChange={(i) => setnoofPeople(parseFloat(i.target.value))}
             />
           </div>
         </div>
